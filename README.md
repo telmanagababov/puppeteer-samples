@@ -7,6 +7,11 @@ The repository contains some basic examples of usage [Puppeteer](https://github.
 > Puppeteer requires at least Node v6.4.0, but the examples in the repository use async/await which is only supported in Node v7.6.0 or greater
 
 ## Installation
+Clone the repository
+```
+git clone https://github.com/telmanagababov/puppeteer-samples.git
+```
+Install the required dependencies
 ```
 npm i
 ```
