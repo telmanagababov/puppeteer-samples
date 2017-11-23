@@ -10,6 +10,8 @@ const puppeteer = require('puppeteer');
     await page.goto('https://www.google.com',
         { waitUntil: 'networkidle0' });
 
+    await page.setViewport({width: 1000, height: 700});
+
     await page.keyboard.type('Hello World!');
     await page.keyboard.press('ArrowLeft');
 
@@ -19,4 +21,5 @@ const puppeteer = require('puppeteer');
     await page.keyboard.up('Shift');
 
     await page.keyboard.press('Backspace');
+    await page.keyboard.press('Enter');
 })();
