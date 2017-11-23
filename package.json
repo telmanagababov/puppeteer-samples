@@ -19,6 +19,8 @@
   "dependencies": {
     "chrome-launcher": "^0.8.1",
     "chrome-remote-interface": "^0.25.3",
-    "puppeteer": "^0.13.0"
+    "mocha": "^4.0.1",
+    "puppeteer": "^0.13.0",
+    "should": "^13.1.3"
   }
 }
