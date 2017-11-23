@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/telmanagababov/puppeteer-samples#readme",
   "dependencies": {
+    "chrome-launcher": "^0.8.1",
+    "chrome-remote-interface": "^0.25.3",
     "puppeteer": "^0.13.0"
   }
 }
